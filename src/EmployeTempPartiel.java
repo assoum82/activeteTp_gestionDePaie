@@ -24,7 +24,7 @@ public class EmployeTempPartiel extends Employe {
 
     public int FeullePresence(){
         int f=0;
-        for(int i=0;i<4;i++){
+        for(int i=0;i<35;i++){
             System.out.print("jour " +  (i+1) + " " );
             String   choix=cv.nextLine();
             if(choix=="absent"){
