@@ -32,7 +32,7 @@ public class EmployeTempPlein extends Employe{
 
     public int FeullePresence(){
         int f=0;
-        for(int i=0;i<4;i++){
+        for(int i=0;i<7;i++){
             System.out.print("l'heur " +  (i+1) + " " );
             String   choix=cv.nextLine();
             if(choix=="absent"){
