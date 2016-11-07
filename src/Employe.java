@@ -50,7 +50,7 @@ public class Employe {
         System.out.println(nom + "( " + job + " ) " );
 
     }
-// une méthode pour les absences et j'ai redifinir dans la class employeTempPlein et employeTempPartiel
+// une méthode pour les absences et j'ai redifinis dans la class employeTempPlein et employeTempPartiel
     public int FeullePresence(){
         return absence;
     }
